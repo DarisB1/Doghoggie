@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+    font-family: "Roboto", sans-serif;
     background-color: #ffb763;
     display: flex;
     flex-direction: column;
@@ -15,15 +18,23 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     border-radius: 20px 20px 0 0;
     width: 43%;
-    padding: 1rem;
+    padding: 1rem 2rem;
+}
+
+.img-h1 {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
     margin-left: 1rem;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 .img-point {
@@ -32,16 +43,25 @@ h1 {
 
 .point {
     width: 5%;
-    margin-right: auto;
+}
+
+.img-chien {
+    width: 100%;
 }
 
 main {
     background-color: #1fa1ff;
+    width: 43%;
 }
 .share-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.share {
+    color: white;
 }
 
 .fleche {
@@ -65,10 +85,9 @@ footer {
 
 .img-div {
     display: flex;
-    width: 43%;
+    justify-content: space-between;
 }
 
-.coeur, .comment, .envoyer, .favori {
-    width: 1rem;
+.likes {
+    padding-top: 1rem;
 }
-
