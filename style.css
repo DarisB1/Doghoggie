@@ -6,10 +6,69 @@
 
 body {
     background-color: #ffb763;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 header {
-    display: ;
+    display: flex;
+    align-items: center;
     background-color: white;
+    border-radius: 20px 20px 0 0;
+    width: 43%;
+    padding: 1rem;
+}
+
+h1 {
+    margin-left: 1rem;
+}
+
+.img-point {
+    display: flex;
+}
+
+.point {
+    width: 5%;
+    margin-right: auto;
+}
+
+main {
+    background-color: #1fa1ff;
+}
+.share-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fleche {
+    width: 5%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 1rem;
+}
+
+.img-div {
+    display: flex;
+    width: 43%;
+}
+
+.coeur, .comment, .envoyer, .favori {
+    width: 1rem;
 }
 
